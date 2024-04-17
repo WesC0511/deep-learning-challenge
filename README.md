@@ -13,10 +13,15 @@ Using bulleted lists and images to support your answers, address the following q
 Data Preprocessing
 What variable(s) are the target(s) for your model?
 -- Target Variable: The target variable for our model is IS_SUCCESSFUL, which indicates whether a charitable donation was successful (1) or not (0).
+
+
 What variable(s) are the features for your model?
 -- Feature Variables: The feature variables for our model include various input features such as APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, INCOME_AMT, etc.
+
+
 What variable(s) should be removed from the input data because they are neither targets nor features?
 Removed Variable: Variables such as EIN and NAME are neither targets nor features and should be removed from the input data.
+
 
 
 Compiling, Training, and Evaluating the Model
